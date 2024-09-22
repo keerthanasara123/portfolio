@@ -372,7 +372,7 @@ nav{
 }
 .bottom{
     width: 100%;
-    margin-top: 400px;
+    margin-top: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -385,20 +385,22 @@ nav{
     justify-content: space-evenly;
 }
 .call{
-    padding: 10px;
+    padding: 6px;
     text-align: center;
+    font-size: 10px;
 }
 .write{
-    padding: 10px;
+    padding: 6px;
     text-align: center;
+    font-size: 10px;
 }
 .follow{
-    padding: 10px;
+    padding: 6px;
     text-align: center;
+    font-size: 10px;
 }
 
 .follow i{
-    padding: 0px 5px;
+    padding: 0px 3px;
 } 
     
-}
