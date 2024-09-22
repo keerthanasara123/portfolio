@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.name{
+    padding: 10px;
+    display: flex;
+}
+.name span{
+    padding: 10px;
+    font-weight: 100;
+}
+.name i{
+    padding: 10px;
+    color: blue;
+    font-size: 25px;
+
+}
+.name a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;    
+}
+.list{
+    padding: 10px;
+}
+.list ul{
+    display: flex;
+}
+.list li{
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+}
+.list a:hover{
+    color: blue;
+}
+.about{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 1240px;
+    height: 600px;
+    margin-top: 150px;
+}
+.box1{
+    background-color: rgb(230, 218, 206);
+    width: 500px;
+
+}
+.box2{
+    background-color: white;
+    width: 740px;
+}
+.back{
+    display: flex;
+    width: 1000px;
+    position: absolute;
+    height: 432px;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+.profile{
+    background-color:rgb(244, 236, 230);
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: -1px 1px 20px rgb(170, 169, 169);
+}
+.photo img{
+    border-radius: 200px;
+}
+.line{
+    background-color: blue;
+    width: 60px;
+    height: 10px;
+}
+.profile h3{
+    font-size: 25px;
+}
+.profile h4{
+    font-size: 15px;
+    font-weight: 400;
+}
+.icons{
+    background-color: white;
+    padding: 10px 100px;
+}
+.icons i{
+    padding: 10px;
+}
+
+.hello{
+    background-color: white;
+    padding: 20px;
+}
+.hello h1{
+    font-size: 100px;
+    line-height: 0;
+}
+.hello h3{
+    font-size: 25px;
+}
+
+.reference{
+    display: flex;
+}
+#res{
+    background-color: blue;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 40px;
+    border: 2px solid blue;
+    transition: 0.3s ease-in-out;
+}
+#res:hover{
+    border: 2px solid blue;
+    background-color: white;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+#pro{
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+    padding: 9px 40px;
+    border-radius: 40px;
+    margin-left: 20px;
+    font-weight: bolder;
+    transition: 0.3s ease-in-out;
+}
+#pro:hover{
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    transition: 0.3s ease-in-out;
+}
+.hello p{
+    font-weight: 200;
+    padding: 20px 0px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.copy{
+    padding: 10px;
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+.call{
+    padding: 10px;
+    text-align: center;
+}
+.write{
+    padding: 10px;
+    text-align: center;
+}
+.follow{
+    padding: 10px;
+    text-align: center;
+}
+
+.follow i{
+    padding: 0px 5px;
+}

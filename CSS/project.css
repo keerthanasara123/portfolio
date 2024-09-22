@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.name{
+    padding: 10px;
+    display: flex;
+}
+.name span{
+    padding: 10px;
+    font-weight: 100;
+}
+.name i{
+    padding: 10px;
+    color: blue;
+}
+.name a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+}
+.list{
+    padding: 10px;
+}
+.list ul{
+    display: flex;
+}
+.list li{
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+}
+.list a:hover{
+    color: blue;
+}
+.main{
+    background-color:rgb(230, 218, 206);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+.content li{
+    list-style: none;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.content i{
+    color: blue;
+    padding: 10px;
+}
+.content p{
+    font-size: 18px;
+    width: 700px;
+}
+.box1{
+    display: flex;
+    align-items: center;
+    width: 700px;
+    box-shadow: 1px 1px 20px rgb(138, 137, 137);
+}
+.box2{
+    display: flex;
+    align-items: center;
+    width: 700px;
+    margin-top: 50px;
+    box-shadow: 1px 1px 20px rgb(138, 137, 137);
+
+}
+.role{
+    background-color: white;
+    padding: 50px 20px;
+}
+.role h3{
+    color: blue;
+    font-size: 24px;
+    line-height: 0;
+}
+.image{
+    height: 350px;
+}
+
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.copy{
+    padding: 10px;
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+.call{
+    padding: 10px;
+    text-align: center;
+}
+.write{
+    padding: 10px;
+    text-align: center;
+}
+.follow{
+    padding: 10px;
+    text-align: center;
+}
+
+.follow i{
+    padding: 0px 5px;
+}
