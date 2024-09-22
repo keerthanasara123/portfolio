@@ -224,4 +224,9 @@ nav{
         font-size: 25px;
     
     }
+    
+    .list ul{
+        visibility: hidden;
+    }
+    
 }
