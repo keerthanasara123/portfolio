@@ -267,11 +267,11 @@ nav{
     width: 60%;
 }
 .back{
-    display: flex;
-    width: 60%;
+   display: flex;
+    width: 80%;
     position: absolute;
     flex-direction: column;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 80px;
 }
 .profile{
