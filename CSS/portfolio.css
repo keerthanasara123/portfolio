@@ -198,9 +198,10 @@ nav{
     body{
         font-size: 12px;
     }
-    
     nav{
-        width:100%;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
     }
     .navbar{
         position: fixed;
@@ -211,25 +212,44 @@ nav{
         left: 0;
     }
     .name{
-        padding: 2%;
+        padding:1px;
         display: flex;
     }
     .name span{
-        padding: 10px;
+        padding: 5px;
         font-weight: 100;
     }
     .name i{
-        padding: 10px;
+        padding: 5px;
         color: blue;
-        font-size: 25px;
+        font-size: 10px;
     
     }
-    
+    .name a{
+        text-decoration: none;
+        padding: 10px;
+        font-size: 15px;
+        color: black;
+        font-weight: bolder;    
+    }
+    .list{
+        padding: 1px;
+    }
     .list ul{
-        visibility: hidden;
+        display: flex;
     }
-    .drop-down{
-        visibility: visible;
+    .list li{
+        display: flex;
+        padding: 4px;
+        text-decoration: none;
     }
+    .list a{
+        text-decoration: none;
+        color: black;
+        font-size: 8px;
+    }
+    .list a:hover{
+        color: blue;
+    }   
     
 }
