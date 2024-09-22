@@ -228,5 +228,8 @@ nav{
     .list ul{
         visibility: hidden;
     }
+    .drop-down{
+        visibility:visible;
+    }
     
 }
