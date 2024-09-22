@@ -3,10 +3,13 @@ body{
     background-color: white;
     font-family: 'Poppins', sans-serif;
 }
-
+.drop-down{
+    visibility: hidden;
+}
 nav{
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 .navbar{
     position: fixed;
@@ -17,7 +20,7 @@ nav{
     left: 0;
 }
 .name{
-    padding: 10px;
+    padding: 2%;
     display: flex;
 }
 .name span{
@@ -38,7 +41,7 @@ nav{
     font-weight: bolder;    
 }
 .list{
-    padding: 10px;
+    padding: 2%;
 }
 .list ul{
     display: flex;
@@ -58,25 +61,25 @@ nav{
 .about{
     background-color: rgb(255, 255, 255);
     display: flex;
-    width: 1240px;
+    width: 100%;
     height: 600px;
     margin-top: 150px;
 }
 .box1{
     background-color: rgb(230, 218, 206);
-    width: 500px;
+    width: 40%;
 
 }
 .box2{
     background-color: white;
-    width: 740px;
+    width: 60%;
 }
 .back{
     display: flex;
-    width: 1000px;
+    width: 75%;
     position: absolute;
     height: 432px;
-    margin-left: 200px;
+    margin-left: 15%;
     margin-top: 80px;
 }
 .profile{
@@ -92,8 +95,8 @@ nav{
 }
 .line{
     background-color: blue;
-    width: 60px;
-    height: 10px;
+    width: 30%;
+    height: 20px;
 }
 .profile h3{
     font-size: 25px;
@@ -163,6 +166,7 @@ nav{
     padding: 20px 0px;
 }
 .bottom{
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -188,4 +192,10 @@ nav{
 
 .follow i{
     padding: 0px 5px;
+}
+
+@media only screen and (max-width:768px){
+    body{
+        font-size: 12px;
+    }
 }
